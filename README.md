@@ -25,7 +25,7 @@ mounted() {
 }
 ```
 
-[DEMO]()
+[DEMO](https://ohagip.github.io/vue-scrollmagic/)
 
 ## Documentation
 [http://scrollmagic.io](http://scrollmagic.io/)
