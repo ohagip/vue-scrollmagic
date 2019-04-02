@@ -1,13 +1,16 @@
 # vue-scrollmagic
 ScrollMagicのVueカスタムディレクティブ 
 
-## Install
+[DEMO](https://ohagip.github.io/vue-scrollmagic/)
+
+## Dependencies
 ```
 npm i --save scrollmagic
 npm i --save gsap
 npm i --save-dev imports-loader
 ```
 
+## Install
 `./src/vue-scrollmagic.js`をコピー
 
 ## Usage
@@ -24,8 +27,6 @@ mounted() {
   console.log(this.$scrollmagic.scene['scene name'])
 }
 ```
-
-[DEMO](https://ohagip.github.io/vue-scrollmagic/)
 
 ## Documentation
 [http://scrollmagic.io](http://scrollmagic.io/)
@@ -47,17 +48,13 @@ mounted() {
   setTween: {} // Scene.setTween options
 }
 ```
-[Scene options](http://scrollmagic.io/docs/ScrollMagic.Scene.html#constructor)
-[Scene events](http://scrollmagic.io/docs/ScrollMagic.Scene.html#event:enter)
-[Scene.setTween options](http://scrollmagic.io/docs/animation.GSAP.html#Scene.setTween)
+[Scene options](http://scrollmagic.io/docs/ScrollMagic.Scene.html#constructor)  
+[Scene events](http://scrollmagic.io/docs/ScrollMagic.Scene.html#event:enter)  
+[Scene.setTween options](http://scrollmagic.io/docs/animation.GSAP.html#Scene.setTween)  
 
 ---
 # Vue CLI npm script
 
-## Project setup
-```
-npm install
-```
 
 ### Compiles and hot-reloads for development
 ```
@@ -69,15 +66,7 @@ npm run serve
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
-
 ### Lints and fixes files
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
